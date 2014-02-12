@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-crontab",
-  "version": "2.0.1",
+  "version": "2.1.1",
   "description": "DocPad plugin that adds the ability to render Something to Something Else",
   "homepage": "https://github.com/apelsophiebarat/docpad-plugin-crontab",
   "keywords": [
