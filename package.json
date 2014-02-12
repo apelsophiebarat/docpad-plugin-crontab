@@ -1,27 +1,28 @@
 {
-  "name": "docpad-plugin-yourpluginname",
+  "name": "docpad-plugin-crontab",
   "version": "2.0.0",
   "description": "DocPad plugin that adds the ability to render Something to Something Else",
-  "homepage": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname",
+  "homepage": "https://github.com/apelsophiebarat/docpad-plugin-crontab",
   "keywords": [
     "docpad",
     "docpad-plugin",
-    "something",
-    "somethingelse"
+    "cron",
+    "crontab",
+    "schedule"
   ],
-  "author": "Copyright holders name <copyright holder's email> (copyright holder's website url)",
+  "author": "Eric Vantillard <eric.vantillard@evaxion.fr> (http://github.com/evantill)",
   "maintainers": [
-    "Your name <your email> (your github url)"
+    "Eric Vantillard <eric.vantillard@evaxion.fr> (http://github.com/evantill)"
   ],
   "contributors": [
-    "Your name <your email> (your github url)"
+    "Eric Vantillard <eric.vantillard@evaxion.fr> (http://github.com/evantill)"
   ],
   "bugs": {
-    "url": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname/issues"
+    "url": "https://github.com/apelsophiebarat/docpad-plugin-crontab/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname.git"
+    "url": "https://github.com/apelsophiebarat/docpad-plugin-crontab.git"
   },
   "engines": {
     "node": ">=0.8"
@@ -29,12 +30,14 @@
   "peerDependencies": {
     "docpad": "6"
   },
-  "dependencies": {},
+  "dependencies": {
+    "cron": "~1.0.3"
+  },
   "devDependencies": {
     "coffee-script": "~1.6.3"
   },
-  "main": "./out/yourpluginname.plugin.js",
+  "main": "./out/crontab.plugin.js",
   "scripts": {
-    "test": "node ./out/yourpluginname.test.js"
+    "test": "node ./out/crontab.test.js"
   }
 }
